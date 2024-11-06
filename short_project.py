@@ -18,7 +18,7 @@ UserChoice = ReverseDict[user]
 ComputerChoice = ReverseDict[computer]
 
 print(f"Your Choice : {UserChoice}\nComputer's Choice : {ComputerChoice}")
-
+# the logic used below is based on the analysis of of the values of computer - user ( in 1 , 0 , -1 ) .
 if(computer == user):
     print("Its's a draw .")
 
